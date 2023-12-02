@@ -14,7 +14,7 @@ public class EventDTO {
 	@NotBlank(message = "Campo requerido")
 	private String name;
 
-	@FutureOrPresent(message = "A data não pode ser passada")
+	@FutureOrPresent(message = "A data do evento não pode ser passada")
 	private LocalDate date;
 	private String url;
 
